@@ -1,0 +1,122 @@
+body{
+	background-color:#fafad2;
+}
+h1{
+font-family: 'Bookman Old Style';
+text-align:center;
+font-size:50px;
+}
+h2{
+font-family: 'Bookman Old Style';
+
+}
+#piu{
+	border:2px solid black;
+	background-color:#deb887;
+	width:300px;	
+}
+#scheda_prodotto{
+	border:2px solid black;
+	background-color:#deb887;
+	padding:50px;
+	position:a;
+	width:700px;
+	margin-left:400px;
+	margin-top:-100px;
+	text-align:center;
+}
+#x{
+margin-left:650px;
+}
+nav{
+	background-color: #deb887;
+	color: black;
+
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+nav li a{
+	text-decoration: none;
+	color: white;
+}
+nav li:hover{
+	background-color: #fafad2;
+	
+}
+.dropdown-content a:hover{
+	background-color: #fafad2;
+}
+nav li{
+	display: inline-block;
+	padding: 15px;
+}
+.dropdown-content{
+	position: absolute;
+	background-color: #deb887;
+	margin-top: 15px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	display: none;
+}
+.dropdown{
+	text-align: center;
+	padding: 14px 16px;
+}
+nav li:hover .dropdown-content{ 
+ display: block;
+}
+.dropdown-content a{
+	display: block;
+	padding: 15px;
+}
+#scheda_prodotto input{
+	border-radius:24px;
+	background-color:#fafad2;
+}
+#scheda_prodotto button{
+	border-radius:24px;
+	background-color:#fafad2;
+}
+p{
+font-family: Palatino Linotype;
+}
+#carrellobello{
+	margin-left: 1400px;
+	margin-top: 0px;
+}
+.scheda_prodotto{
+	margin-top:-900px;
+	border:2px solid black;
+	background-color:#deb887;
+	padding:50px;
+	position:a;
+	width:700px;
+	margin-left:400px;
+	
+	text-align:center;
+}
+#procedi{
+	color: black;
+	padding: 10px;
+}
+#procedi:hover{
+	background-color: #00FF00;
+	color: black;
+	padding: 14px;
+}
+#more{
+	font-size: 20px;
+	margin-left: 700px;
+}
+#more2{
+	margin-left: 670px;
+	font-size: 20px;
+}
+#more2:hover{
+	padding:15px;
+	background-color: #00FF00;
+}
+

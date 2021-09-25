@@ -1,0 +1,132 @@
+nav{
+	background-color: #deb887;
+	color: white;
+
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+nav li:hover{
+	background-color: #fafad2;
+	
+}
+.dropdown-content a:hover{
+	background-color: #deb887;
+}
+nav li{
+	display: inline-block;
+	padding: 15px;
+}
+.dropdown-content{
+	position: absolute;
+	background-color: #fafad2;
+	margin-top: 15px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	display: none;
+}
+.dropdown{
+	text-align: center;
+	padding: 14px 16px;
+}
+nav li:hover .dropdown-content{ 
+ display: block;
+}
+.dropdown-content a{
+	display: block;
+	padding: 15px;
+}
+.info{
+	color:balck;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	background-color:#CAE1FF;
+	width:800px;
+	margin-right:800px;
+	text-align:center;
+	width:auto;
+	height:800px;
+	top:300;
+	margin-left:50px;
+}
+
+#p_info{
+
+
+
+
+margin: 50px 0px 0px 50px;
+font-size:25px;
+}
+#h1_info{ 
+font-size:35px;
+text-shadow: 3px 3px #AAAAAA;
+}
+h1{
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:70px;
+	
+}
+body{
+
+background-color:#fafad2;
+background-image: url("SF.jpg");
+font-family: Arial, Helvetica, sans-serif;
+
+}
+#carne{
+border: 2px solid black;
+text-align:center;
+background-color:white;
+margin-top:-800px;
+margin-left:800px;
+padding: 20px;
+width:300px;
+height:350px;
+font-size:40px;
+}
+#latticini{
+border: 2px solid black;
+text-align:center;
+background-color:white;
+margin-top:10px;
+margin-left:800px;
+padding: 20px;
+width:300px;
+height:350px;
+font-size:40px;
+}
+#pasta{
+border: 2px solid black;
+text-align:center;
+background-color:white;
+margin-top:-798px;
+margin-left:1150px;
+padding: 20px;
+width:300px;
+height:350px;
+font-size:40px;
+}
+#vino{
+border: 2px solid black;
+text-align:center;
+background-color:white;
+margin-top:10px;
+margin-left:1150px;
+padding: 20px;
+width:300px;
+height:350px;
+font-size:30px;
+}
+a{
+	text-decoration:none;
+	text-shadow: 3px 3px #AAAAAA;
+	color:black;
+}

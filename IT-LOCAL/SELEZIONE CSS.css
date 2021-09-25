@@ -1,0 +1,111 @@
+nav{
+	background-color: #deb887;
+	color: white;
+
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+nav li:hover{
+	background-color: #fafad2;
+	
+}
+.dropdown-content a:hover{
+	background-color: #fafad2;
+}
+nav li{
+	display: inline-block;
+	padding: 15px;
+}
+.dropdown-content{
+	position: absolute;
+	background-color: #deb887;
+	margin-top: 15px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	display: none;
+}
+.dropdown{
+	text-align: center;
+	padding: 14px 16px;
+}
+nav li:hover .dropdown-content{ 
+ display: block;
+}
+.dropdown-content a{
+	display: block;
+	padding: 15px;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}	
+body{
+
+background-color:#fafad2;
+
+
+}
+.lyout{ 
+
+border: 2px solid #deb887;
+  border-radius: 100px;
+background-color:#deb887;
+padding:150px;
+text-align:center;
+width:300px;
+margin-left:30%;
+}
+.lyout_scheda{
+	border: 2px solid black;
+	background-image: url("SF.jpg");
+	padding:50px;
+	text-align: center;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	border-radius: 25px;
+	
+}
+.lyout_scheda2{
+	border: 2px solid black;
+	background-image: url("SF.jpg");
+	padding:50px;
+	text-align: center;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	border-radius: 25px;
+	
+}
+#lyout_scheda_1{
+
+margin-bottom:150px;
+}
+#lyout_scheda_2{
+
+
+}
+#img_campania{
+	margin-right:100px;
+}
+.lyout2{
+	border: 2px solid #deb887;
+  border-radius: 100px;
+background-color:#deb887;
+padding:150px;
+text-align:center;
+width:700px;
+margin-left:12.3%;
+}
+p{
+font-family: Palatino Linotype;
+}
